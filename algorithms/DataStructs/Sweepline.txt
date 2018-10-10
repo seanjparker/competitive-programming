@@ -1,0 +1,7 @@
+A sweepline algorithm models the problem as a set of events processed in sorted order
+To find the max number of people in a place at the same time, given entrance and leaving times:
+ - Create two events (enter and leave) for each customer
+ - Sort events by time
+ - Go through them, maintain counter of customers, max counter is max number of people
+
+Works in O(nlogn + n), O(nlogn) for sorting and O(n) for processing

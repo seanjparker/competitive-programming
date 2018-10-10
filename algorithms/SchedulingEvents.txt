@@ -1,0 +1,2 @@
+Sort the events by the end times
+Always select the next possible events that ends as early as possible
